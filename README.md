@@ -8,6 +8,8 @@
 
 ### Development 🔧
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b00259746198444695b0260208d21740)](https://app.codacy.com/app/pranay414/vashisht-2019?utm_source=github.com&utm_medium=referral&utm_content=DMT-IIITDM/vashisht-2019&utm_campaign=Badge_Grade_Settings)
+
 #### Install dependencies
 
 ```sh
