@@ -10,7 +10,7 @@ class Teaser extends Component{
 				<Row className='teaser'>
 					<Col>
 						<p>TEASER</p>
-						<h2>Comming soon..</h2>
+						<h2>Coming soon..</h2>
 					</Col>
 				</Row>
 			</Container>

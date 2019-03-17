@@ -66,6 +66,17 @@
     font-size:7vw;
 }
 
+.coming .col{
+    text-align:center;
+    color:white; 
+}
+
+.coming p{
+    font-family:rubik;
+    font-size:7vw;
+    margin-top:35vh;
+}
+
 @media (max-width: 670px){
     .section{
         background:url('../../resources/mobile/Mobile\ BG.png');

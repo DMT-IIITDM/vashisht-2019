@@ -4,7 +4,7 @@ import {Header} from 'react-fullpage';
 
 import '../styles/App.css';
 import HomePage from './homepage/HomePage';
-import Comming from './comming-soon/CommingSoon';
+import Coming from './comming-soon/Coming';
 import Navbar from './Navbar';
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
 					</Header>
 					<Switch>
 						<Route path='/' component={HomePage} exact/>
-						<Route component={Comming}/>
+						<Route component={Coming}/>
 					</Switch>
 				</div>				
 			</BrowserRouter>
