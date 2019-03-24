@@ -20,11 +20,12 @@ class Navbar extends Component{
 		e.preventDefault();
 		let ham_icon = document.getElementsByClassName('nav-header');
 		ham_icon[0].classList.toggle('active');
+		document.getElementsByClassName('side-header')[0].classList.toggle('active');
 	};
 
 	render(){
 		return(
-			<div>
+			<div className='side-header active'>
 				<div className='hamburger'>
 					<img src={ham} alt='hamburger icon' onClick={this.handleMenu}/>
 				</div>
