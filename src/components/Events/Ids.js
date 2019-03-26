@@ -64,7 +64,7 @@ class Ids extends Component{
 						choice is yours, the speed and skills are yours.</h4>
 						<h4>The Last 12 Standing Individuals will be offered to form Teams of two amongst
 						themselves and Compete for the finale.</h4>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h3>(Prelims)</h3>
@@ -78,7 +78,7 @@ class Ids extends Component{
 								<h4>6 Teams compete to solve a Theme (powered by Sponsors.)</h4>
 							</li>
 						</ul>
-						<h3>Judging :</h3>
+						<hr></hr><h3>Judging :</h3>
 						<ul>
 							<li>
 								<h4>Speed &amp; Completion time. (Prelims)</h4>
@@ -87,8 +87,8 @@ class Ids extends Component{
 								<h4>The Final Deliverable Design Poster (Finale)</h4>
 							</li>
 						</ul>
+						<hr></hr><h3>Prize:</h3>
 						<ul>
-							<h3>Prize:</h3>
 							<li>
 								<h4>Winner (25k) &amp; Runner’s (10k)</h4>
 							</li>

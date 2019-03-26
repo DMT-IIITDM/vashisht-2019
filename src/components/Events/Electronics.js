@@ -111,10 +111,10 @@ class Electronics extends Component{
 				<Container className='details-container electronic active'>
 					<Row className='event-details'>
 						<h1>Break The Circuit</h1>
-						<h3 className='display-pos'>Description :</h3>
+						<h3 className='display-pos electronic1'>Description :</h3>
 						<h4>Think circuit analysis is something so interesting and reflects on all your logical
 						understanding? Here is a platform to prove your skills on Circuit analysis.</h4>
-						<h3>Rules : </h3>
+						<hr></hr><h3>Rules : </h3>
 						<ul>
 							<li>
 								<h4>Teams with a max size of 3 can participate</h4>
@@ -138,11 +138,11 @@ class Electronics extends Component{
 								<h4>The circuits will be randomly chosen.</h4>
 							</li>
 						</ul>
-						<h3>Format : </h3>
+						<hr></hr><h3>Format : </h3>
 						<ul>
-							<li>
-								<h4>ROUND 1:</h4>
-							</li>
+							{/* <li> */}
+							<h4>ROUND 1:</h4>
+							{/* </li> */}
 							<li>
 								<h5>A circuit analysis round to spot and debug the given circuit on a simulation platform like
 								Multisim. Qualification to the next round is based on the highest number of circuits debugged.</h5>
@@ -150,16 +150,19 @@ class Electronics extends Component{
 							<li>
 								<h5>Duration : 1 hr</h5>
 							</li>
-							<li>
-								<h4>Round 2: </h4>
-							</li>
+							{/* <li> */}
+							<h4>ROUND 2: </h4>
+							{/* </li> */}
 							<li>
 								<h5>Collect the required components from the store house based on the given circuit diagram and
 								solder them on PCB Strip board.</h5>
 							</li>
 							<li><h5>Duration : 1.5 hrs</h5></li>
-						</ul>						
-						<h3>Venue :</h3>
+							{/* <li> */}
+							{/* </li> */}
+						</ul>
+						<hr></hr><h3>Venue :</h3>
+						<br clear="all" /><br />
 						<ul>
 							<li>
 								<h5 className='top-down'>Date : March 30</h5>
@@ -170,7 +173,7 @@ class Electronics extends Component{
 							</li>
 						</ul>
 						<h4>Prize money : 1st prize: 3k, 2nd prize: 2k</h4>
-						<h3>Contact :</h3>
+						<hr></hr><h3>Contact :</h3>
 						<ul>
 							<li>
 								<h5 className='top-down'>Jeeva Keshav S - (+91) 9943677801</h5>
@@ -187,7 +190,7 @@ class Electronics extends Component{
 						<h3 className='display-pos'>Description :</h3>
 						<h4>Ever a tech geek? Or a keen follower of tech guru and gadgets? Well, here&#39;s
 						your chance to show your knowledge to the world.</h4>
-						<h3>Rules : </h3>
+						<hr></hr><h3>Rules : </h3>
 						<ul>
 							<li>
 								<h4>Teams with a max size of 2 can participate</h4>
@@ -213,7 +216,7 @@ class Electronics extends Component{
 								<h4>Participants should bring their laptop with Matlab installed. (exception only to first years to use C/C++).</h4>
 							</li>
 						</ul>
-						<h3>Format : </h3>
+						<hr></hr><h3>Format : </h3>
 						<ul>
 							<li>
 								<h4>ROUND 1: Online tech quiz</h4>
@@ -244,7 +247,7 @@ class Electronics extends Component{
 								<h5>Duration : 1.5 hrs</h5>
 							</li>
 						</ul>						
-						<h3>Venue :</h3>
+						<hr></hr><h3>Venue :</h3>
 						<ul>
 							<li>
 								<h5 className='top-down'>Date : March 30</h5>	
@@ -255,7 +258,7 @@ class Electronics extends Component{
 							</li>
 						</ul>
 						<h4>Prize money : 1st prize: 3k, 2nd prize: 2k</h4>
-						<h3>Contact :</h3>
+						<hr></hr><h3>Contact :</h3>
 						<ul>
 							<li>
 								<h5 className='top-down'>Jeeva Keshav S - (+91) 9943677801</h5>
@@ -273,7 +276,7 @@ class Electronics extends Component{
 						<h4>Have you ever thought of some inquisitive real time problem statement and found an
 						innovative efficient solution? Then, this is your chance of winning the event by demonstrating
 						your idea.</h4>
-						<h3>Rules : </h3>
+						<hr></hr><h3>Rules : </h3>
 						<ul>
 							<li>
 								<h4>Teams with a max size of 3 can participate</h4>
@@ -299,7 +302,7 @@ class Electronics extends Component{
 								<h4>Decisions by the panel will be considered as the final.</h4>
 							</li>
 						</ul>
-						<h3>Format : </h3>
+						<hr></hr><h3>Format : </h3>
 						<ul>
 							<li>
 								<h4>CATEGORY 1:Idea Category: </h4>
@@ -323,7 +326,7 @@ class Electronics extends Component{
 								<h5>Duration : 1.5 hrs</h5>
 							</li>
 						</ul>
-						<h3>Venue :</h3>
+						<hr></hr><h3>Venue :</h3>
 						<ul>
 							<li>
 								<h5 className='top-down'>Date : March 31 st , preferred</h5>
@@ -335,7 +338,8 @@ class Electronics extends Component{
 								<h5>Venue : old library,H01</h5>
 							</li>
 						</ul>
-						<h4>Prize money : </h4>
+						<hr></hr>
+						<h3>Prize money : </h3>
 						<ul>
 							<li>
 								<h4>Category 1: 1st prize:2k, 2nd prize:1.5k</h4>
@@ -344,7 +348,7 @@ class Electronics extends Component{
 								<h4>Category 2: 1st prize:3k, 2nd prize:2.5k</h4>
 							</li>
 						</ul>	
-						<h3>Contact :</h3>
+						<hr></hr><h3>Contact :</h3>
 						<ul>
 							<li>
 								<h5 className='top-down'>Jeeva Keshav S - (+91) 9943677801</h5>

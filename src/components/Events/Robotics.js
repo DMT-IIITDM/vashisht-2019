@@ -133,7 +133,7 @@ class Robotics extends Component{
 				<Row className='contest-4' id='line-follower'>
 					<p onClick={this.line_follower}>Line Follower</p>
 				</Row>
-				<Row className='contest-4' id='racing'>
+				<Row className='contest-4 racing1' id='racing'>
 					<p onClick={this.racing}>Off-Road Racing</p>
 				</Row>
 				<Row className='contest-4' id='climbing'>
@@ -142,8 +142,14 @@ class Robotics extends Component{
 				<Container className='details-container robo active '>
 					<Row className='event-details'>
 						<h1 >Arduino Quiz</h1>						
+						<h3 className='display-pos arduino'>Description :</h3>
+
+						<h4>Questions from concepts like Board Description, Installation, Program Structure, Data
+						Types, Variables &amp; Constants, Operators, Control Statements, Loops, Functions, Strings,
+						String Object, Time, Arrays, etc</h4>
+						<h4>Exam Type: Multiple Choice Questions</h4>
+						<hr></hr>
 						<ul>
-							<h3 className='display-pos'>Description :</h3>
 							<li>
 								<h4 >Time duration : 50 minutes</h4>
 							</li>
@@ -154,11 +160,7 @@ class Robotics extends Component{
 								<h4>Arduino quiz topics</h4>
 							</li>
 						</ul>
-						<h4>Questions from concepts like Board Description, Installation, Program Structure, Data
-						Types, Variables &amp; Constants, Operators, Control Statements, Loops, Functions, Strings,
-						String Object, Time, Arrays, etc</h4>
-						<h4>Exam Type: Multiple Choice Questions</h4>
-						<h3>FORMAT(ONLINE ROUNDS):</h3>
+						<hr></hr><h3>FORMAT(ONLINE ROUNDS):</h3>
 						<ul>
 							<li>
 								<h4>Registered teams will have to attend an online quiz at VASHISHT.</h4>
@@ -167,7 +169,7 @@ class Robotics extends Component{
 								<h4>Note: There may be multiple rounds depending on the number of participants.</h4>
 							</li>
 						</ul>
-						<h3>PROBLEM STATEMENT:</h3>
+						<hr></hr><h3>PROBLEM STATEMENT:</h3>
 						<ul>
 							<li>
 								<h4>To appear in the online quiz related to Arduino and other microcontrollers.</h4>
@@ -188,24 +190,22 @@ class Robotics extends Component{
 								<h4>6LowPAN to IoT.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>TEAM SPECIFICATIONS: solo</h4>
 							</li>
-							<li>
-								<h3>COMPETITION RULES:</h3>
-								<h4>This quiz for a total of 100 points.</h4>
-								<h4>Section 1:20 questions</h4>
-								<h5>+2 for correct answer -1 for the wrong answer.</h5>
-								<h4>Section 2: 15 questions</h4>
-								<h5>+4 for correct answer -2 for the wrong answer.</h5>
-								<h3>SAFETY RULES:</h3>
-								<h4>Avoid Google because you are not going to find it.</h4>
-							</li>
+							<h3>COMPETITION RULES:</h3>
+							<h4>This quiz for a total of 100 points.</h4>
+							<h4>Section 1:20 questions</h4>
+							<h5>+2 for correct answer -1 for the wrong answer.</h5>
+							<h4>Section 2: 15 questions</h4>
+							<h5>+4 for correct answer -2 for the wrong answer.</h5>
+							<h3>SAFETY RULES:</h3>
+							<h4>Avoid Google because you are not going to find it.</h4>
 						</ul>
+						<hr></hr><h3>Sponsors:</h3>
 						<ul>
-							<h3>Sponsors:</h3>
 							<li><h4>IEEE Student branch IIITDM.</h4></li>
 						</ul>
 					</Row>
@@ -215,7 +215,7 @@ class Robotics extends Component{
 						<h1 >LINE FOLLOWER</h1>
 						<h3 className='display-pos'>Description :</h3>
 						<h4>Design an autonomous robot capable of the following line in a given track.</h4>
-						<h3>FORMAT(ONSITE ROUNDS):</h3>
+						<hr></hr><h3>FORMAT(ONSITE ROUNDS):</h3>
 						<ul>
 							<li>
 								<h4>Registered teams will fight against each other at VASHISHT.</h4>
@@ -224,7 +224,7 @@ class Robotics extends Component{
 								<h4>Note: There may be multiple rounds depending on the number of participants.</h4>
 							</li>
 						</ul>
-						<h3>PROBLEM STATEMENT:</h3>
+						<hr></hr><h3>PROBLEM STATEMENT:</h3>
 						<ul>
 							<li>
 								<h4>Design an autonomous bot which can follow a black line on the white background
@@ -238,7 +238,7 @@ class Robotics extends Component{
 								<h4>The width of the line will be 2cm.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>TEAM SPECIFICATIONS: </h4>
@@ -375,8 +375,8 @@ class Robotics extends Component{
 							</li>
 							
 						</ul>
+						<hr></hr><h3>Sponsors:</h3>
 						<ul>
-							<h3>Sponsors:</h3>
 							<li><h4>IEEE Student branch IIITDM.</h4></li>
 						</ul>
 					</Row>
@@ -387,7 +387,7 @@ class Robotics extends Component{
 						<h3 className='display-pos'>Description :</h3>
 						<h4>Design an autonomous/manual(wireless) vehicle capable of completing given track filled
 						with numerous obstacles.</h4>
-						<h3>FORMAT(ONSITE ROUNDS):</h3>
+						<hr></hr><h3>FORMAT(ONSITE ROUNDS):</h3>
 						<ul>
 							<li>
 								<h4>Registered teams will fight against each other at VASHISHT.</h4>
@@ -396,7 +396,7 @@ class Robotics extends Component{
 								<h4>Note: There may be multiple rounds depending on the number of participants.</h4>
 							</li>
 						</ul>
-						<h3>PROBLEM STATEMENT:</h3>
+						<hr></hr><h3>PROBLEM STATEMENT:</h3>
 						<ul>
 							<li>
 								<h4>Design a autonomous robot which can traverse through horizontal rope.</h4>
@@ -411,7 +411,7 @@ class Robotics extends Component{
 								<h4>Rope may include knots.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>TEAM SPECIFICATIONS: </h4>
@@ -535,8 +535,8 @@ class Robotics extends Component{
 								</ul>
 							</li>		
 						</ul>
+						<hr></hr><h3>Sponsors:</h3>
 						<ul>
-							<h3>Sponsors:</h3>
 							<li><h4>IEEE Student branch IIITDM.</h4></li>
 						</ul>
 					</Row>
@@ -547,7 +547,7 @@ class Robotics extends Component{
 						<h3 className='display-pos'>Description :</h3>
 						<h4>Design an autonomous robot capable of traversing horizontal rope tied between two
 						points.</h4>
-						<h3>FORMAT(ONSITE ROUNDS):</h3>
+						<hr></hr><h3>FORMAT(ONSITE ROUNDS):</h3>
 						<ul>
 							<li>
 								<h4>Registered teams will fight against each other at VASHISHT.</h4>
@@ -556,7 +556,7 @@ class Robotics extends Component{
 								<h4>Note: There may be multiple rounds depending on the number of participants.</h4>
 							</li>
 						</ul>
-						<h3>PROBLEM STATEMENT:</h3>
+						<hr></hr><h3>PROBLEM STATEMENT:</h3>
 						<ul>
 							<li>
 								<h4>Design an autonomous/manual(wireless) vehicle which can traverse through a
@@ -577,7 +577,7 @@ class Robotics extends Component{
 									predict the weather)</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>TEAM SPECIFICATIONS: </h4>
@@ -675,8 +675,8 @@ class Robotics extends Component{
 								</ul>
 							</li>		
 						</ul>
+						<hr></hr><h3>Sponsors:</h3>
 						<ul>
-							<h3>Sponsors:</h3>
 							<li><h4>IEEE Student branch IIITDM.</h4></li>
 						</ul>
 					</Row>

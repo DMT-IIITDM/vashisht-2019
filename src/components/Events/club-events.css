@@ -53,19 +53,29 @@
 }
 
 .fonts p{
-    font-size:7vh!important;
-    padding-top:4vh;
+    font-size:6vh!important;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }
-
+ #break-the-circuit p{
+    font-size:6vh!important;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
 .fonts1 p{
     font-size:6vh!important;
-    padding-top:4vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }
 
 .fonts2 p{
+    margin-top: auto;
+    margin-bottom: auto;
     text-align:center;
     font-size:3.5vh!important;
-    padding-top:4vh;
 }
 
 .right .contest{
@@ -131,8 +141,8 @@
 .event-details{
     color:white;
     font-family:rubik;
-    text-align:center;
-    justify-content: center;
+    /* text-align:center; */
+    /* justify-content: center; */
 }
 
 .event-details h1{
@@ -140,13 +150,8 @@
     font-size:8vh;
 }
 
-.event-details h3{
-    margin:4vh;
-    display:block;
-}
-
 .display-pos{
-    margin-top:11vh!important;
+    margin-top:20vh!important;
 }
 
 .details-container::-webkit-scrollbar {
@@ -158,36 +163,36 @@
     border-radius:5vh; 
 }
 
-.hack-pos{
+.deep-pos,.hack-pos{
     display:block;
-    margin-right:-85vh;
-}
-
-.deep-pos{
-    margin-top:-65vh;
-}
-
-.deep-pos .display-pos{
-    padding-top:10vh;
+    margin-right: -43vw;
 }
 
 .electronic{
     float:left;
-    margin-top:3vh;
+    margin-top:0vh;
+}
+h1{
+    padding-left: 20px;
 }
 
-.electronic h4{
+.headsmall h1{
+    font-size: 6vh;
+}
+
+h4,h5{
+    font-size: 2.5vh;
     display:block;
-    margin-top:10vh;
-}
-
-.top-down{
-    padding-top:12vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.2;
 }
 
 .pos1{
     display:block;
-    left:-85vh;
+    margin-left: -43vw;
 }
 
 .pos2{
@@ -200,7 +205,7 @@
 
 .pos4{
     margin-top:-45vh;
-    margin-right:-88vh;
+    margin-right: -43vw;
 }
 
 .robo{
@@ -209,7 +214,7 @@
 }
 
 .pos5{
-    left:-85vh;
+    margin-left: -43vw;
 }
 
 .pos6{
@@ -226,32 +231,42 @@
 }
 
 .sae1{
-    left:-85vh;
+    left:-42vw;
 }
 
 .display-pos1{
-    padding-top:18vh;
+    padding-top:24vh;
 }
 
 .bottom-down{
-    padding-top:19vh;   
+    padding-top:6vh;   
 }
 
 .event-details h3{
+    display: block;
+    padding-left: 3vh;
     color:#E5BB01!important;
 }
 
 @media (max-width: 575px){
+    h3{
+        font-size: 1.5rem;
+    }
     .contest{
         left:3vh;
     }
     .contest p{
-        padding-top:5vh;
-        font-size:5vh;
+        /* padding-top: 5vh; */
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 4vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
     }
     #deeplearning p{
-        padding-top:6.5vh;
         font-size:2.5vh!important;
+        text-align: center;
+
     }
     .left{
         margin-top:-4vh;
@@ -261,18 +276,19 @@
         width:47%!important;
     }
     #break-the-circuit p{
-        padding-top:6vh;
+        margin: auto;
+        text-align: center;
         font-size:3vh!important; 
     }
-    #technothon p{
-        padding-top:6vh;
-        font-size:4vh!important;
-    }
-    .right-epic p{
+    /* .right-epic p{
         font-size:4.5vh;
-    }
+    } */
     .fonts1 p{
         font-size:3vh!important;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+
     }
     .contest-4{
         margin-top:-3vh!important;
@@ -280,25 +296,34 @@
         margin-bottom:5vh;
     }
     .contest-4 p{
-        padding-top:4vh;
+        margin: auto;
+        font-size:3.5vh;
+    }
+    .contest-4.racing1 p{
+        margin: auto;
+        text-align: center;
         font-size:3.5vh;
     }
     .left-sae .contest{
         margin-left:-1vh;
     }
     .left-sae .contest p{
-        padding-top:3vh;
+        /* padding-top:3vh; */
         font-size:2.5vh!important;
     }
     .left-sae .fonts p{
-        padding-top:6vh;
+        /* padding-top:6vh; */
         font-size:3vh!important;
+        text-align: center;
     }
     .details-container{
         width:100%;
     }
     .hack-pos{
         float:left;
+    }
+    .deep-pos{
+        float: left;
     }
     .electronic{
         width:95%;
@@ -326,23 +351,32 @@
         margin-top:-65vh;
         left:0;
     }
-    .deep-pos .display-pos{
+    .display-pos.arduino {
+        padding-top:6vh;
+    }
+    .display-pos.zerone1 {
         padding-top:20vh;
     }
-    .event-details .display-pos{
-        padding-top:5vh;
+    .display-pos.electronic1{
+        padding-top:5vh;   
     }
-    .electronic .display-pos{
-        padding-top:12vh;   
-    }
-    .pos5 .display-pos,.pos6 .display-pos{
+    .pos5 .display-pos{
         padding-top:10vh;
+    }
+    .pos6 .display-pos{
+        padding-top: 5vh;
     }
     .pos6 h1{
         padding-top:7vh;
         font-size:5vh;
     }
-    .sae .display-pos{
-        padding-top:25vh;
+    .headsmall h1{
+        font-size: 5vh;
     }
+    .display-pos.sae1{
+        padding-top: 5vh;
+    }
+    /* .sae .display-pos{
+        padding-top:25vh;
+    } */
 }
