@@ -118,13 +118,13 @@ class Epic extends Component{
 						<h4>Do you even spend on the right people and things?</h4>
 						<h4>Come, challenge your skills... We are providing you a platform where you get to solve business
 						problems, pitch your ideas, auction for the best and invest.</h4>
-						<h3>Judging criteria : </h3>
+						<hr></hr><h3>Judging criteria : </h3>
 						<ul>
 							<li>
 								<h4>Creative thinking, Pitching skills, Clarity about the problem</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>Every team will be provided with an initial amount which they can use to invest in their
@@ -162,9 +162,10 @@ class Epic extends Component{
 								<h4>The team with the highest amount after the return of investment wins.</h4>
 							</li>
 						</ul>
-						<h3>Team size : 3-6 members</h3>
-						<h3>Prize money :</h3>
-						<h3>Total: Rs 3500</h3>
+						<hr></hr><h3>Team size : </h3>
+						<h4>3-6 members</h4>
+						<hr></hr><h3>Prize money :</h3>
+						<h4>Total: Rs 3500</h4>
 						<ul>
 							<li>
 								<h4>1st: Rs 2000</h4>
@@ -176,8 +177,9 @@ class Epic extends Component{
 								<h4>3rd: Rs 1000</h4>
 							</li>
 						</ul>
+						
+						<hr></hr><h3>Time :</h3>
 						<ul>
-							<h3>Time :</h3>
 							<li>
 								<h4>2-4 hrs One day event. (Prefered day: 2nd day of the the fest, in afternoon)</h4>
 							</li>
@@ -188,6 +190,7 @@ class Epic extends Component{
 					<Row className='event-details'>
 						<h1>Tic TAG Toe:</h1>
 						<h3 className='display-pos'>Abstract :</h3>
+						<hr></hr>
 						<h4>You know how some slogans get you? Like,</h4>
 						<h4>&quot;Just do it&quot;</h4>
 						<h4>&quot;Good food good life&quot;</h4>
@@ -202,14 +205,13 @@ class Epic extends Component{
 						<h4>EPIC presents &quot;Tic TAG Toe&quot;, an event in VASHISHTH 2019 where you have a chance to show
 						off your expertise in creating taglines/slogans for products.</h4>
 						<ul>
-							<li>
-								<h3>Judging criteria : </h3>
-							</li>
+							<hr></hr>
+							<h3>Judging criteria : </h3>
 							<li>
 								<h4>Not needed.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>Register for Vashishth 2019.</h4>
@@ -247,8 +249,8 @@ class Epic extends Component{
 								participation.</h4>
 							</li>
 						</ul>
-						<h3>Prize money :</h3>
-						<h3>Total: Rs 800</h3>
+						<hr></hr><h3>Prize money :</h3>
+						<h4>Total: Rs 800</h4>
 						<ul>
 							<li>
 								<h4>1st: Rs 400</h4>
@@ -263,8 +265,8 @@ class Epic extends Component{
 					</Row>
 				</Container>
 				<Container className='details-container epic-now pos4 active'>
-					<Row className='event-details'>
-						<h1>Vashishth Business Challenge (VBC):</h1>
+					<Row className='event-details headsmall'>
+						<h1>Vashisht Business Challenge (VBC):</h1>
 						<h3 className='display-pos1'>Abstract :</h3>
 						<h4>Any kind of business is not easy. It involves ideation, studying the market, promotion
 						of the product/service, creating a need for the product/service, keep your product ahead in the
@@ -273,16 +275,16 @@ class Epic extends Component{
 						business plans and earn some real money by selling your product/services using various
 						strategies, skills and creativity to attract the customers. Here’s a perfect chance for you to earn
 						some money and sponsor yourself a small treat.</h4>
-						<h4>EPIC presents &quot;Vashishth Business Challenge&quot;, an event in VASHISHTH 2019 where you have
+						<h4>EPIC presents &quot;Vashisht Business Challenge&quot;, an event in VASHISHTH 2019 where you have
 						a chance to put up your own business, sell your products/services to real people and earn
 						money.</h4>
 						<ul>
 							<li>
-								<h3>Judging criteria : </h3>
+								<hr></hr><h3>Judging criteria : </h3>
 								<h4>Not needed.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h3>Round 1</h3>
@@ -323,10 +325,12 @@ class Epic extends Component{
 								<h4>The earnings of the three days will be divided equally between the team and Vashishth.</h4>
 							</li>
 						</ul>
-						<h3>Team size : 3-8 members</h3>
-						<h3>Time : 2-3 hrs on first day (evening)</h3>
-						<h3>Prize money :</h3>
-						<h3>Total: Rs 7200</h3>
+						<hr></hr><h3>Team size : </h3>
+						<h4>3-8 members</h4>
+						<hr></hr><h3>Time : </h3>
+						<h4>2-3 hrs on first day (evening)</h4>
+						<hr></hr><h3>Prize money :</h3>
+						<h4>Total: Rs 7200</h4>
 						<ul>
 							<li>
 								<h4>1st: Rs 3000</h4>

@@ -114,7 +114,7 @@ class Zerone extends Component{
 						<h3 className='display-pos'>Description :</h3>
 						<h4>Code Wars is a tournament based event mixing the idea of ‘Duel’ and ‘Coding’ where
 						two teams will be put against each other in order to qualify to the next round.</h4>
-						<h3>Judging criteria : </h3>
+						<hr></hr><h3>Judging criteria : </h3>
 						<ul>
 							<li>
 								<h4>There will be a prelims round out of which 32 or 16 teams will make to the next
@@ -127,7 +127,7 @@ class Zerone extends Component{
 								until one final team is left. Team having the highest marks will qualify further.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>Prelims will be online whereas further rounds will be offline.</h4>
@@ -156,13 +156,13 @@ class Zerone extends Component{
 						<h3 className='display-pos'>Description :</h3>
 						<h4>An 8 hour long coding marathon where participants will be given a real world problem to
 						solve in any coding platform they feel comfortable in.</h4>
-						<h3>Judging criteria : </h3>
+						<hr></hr><h3>Judging criteria : </h3>
 						<ul>
 							<li>
 								<h4>Judging criteria will be in terms of performance, code quality, UI.</h4>
 							</li>
 						</ul>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>Usage of open source libraries are allowed.</h4>
@@ -179,9 +179,9 @@ class Zerone extends Component{
 				<Container className='details-container active deep-pos'>
 					<Row className='event-details'>
 						<h1 >Deep Learning Workshop</h1>
-						<h3 className='display-pos'>Description :</h3>
+						<h3 className='display-pos zerone1'>Description :</h3>
 						<h4>A practical hands on Deep Learning workshop using Python.</h4>
-						<h3>Rules and Regulations : </h3>
+						<hr></hr><h3>Rules and Regulations : </h3>
 						<ul>
 							<li>
 								<h4>There will be two sessions, 3 hours each.</h4>

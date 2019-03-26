@@ -25,6 +25,7 @@ header{
 .nav-header-row{
     width:inherit;
     max-width:100%;
+    height: 7vh;
 }
 
 .navbar{
@@ -36,7 +37,7 @@ header{
     color:#E4E4E4;
 }
 
-.navbar p:hover{
+.navbar:active p{
     border-bottom: 3px solid #D4145A;
     border-radius:1px;
 }

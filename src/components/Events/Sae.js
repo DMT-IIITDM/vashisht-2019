@@ -81,7 +81,7 @@ class Sae extends Component{
 					<p onClick={this.bridge}>Bridge Fabrication</p>
 				</Row>
 				<Container className='details-container active sae'>
-					<Row className='event-details'>
+					<Row className='event-details headsmall'>
 						<h1 >Training Program on Automobile and Vehicle Dynamics</h1>
 						<ul className='bottom-down'>
 							<h3 className='display-pos'>Introduction :</h3>
@@ -92,7 +92,7 @@ class Sae extends Component{
 							</li>
 						</ul>
 						<ul>
-							<h3>What&#39;s there in the box?</h3>
+							<hr></hr><h3>What&#39;s there in the box?</h3>
 							<li>
 								<h4>Chassis design</h4>
 							</li>
@@ -107,7 +107,7 @@ class Sae extends Component{
 							</li>
 						</ul>
 						<h4>Hands-on experience on everything mentioned above.</h4>
-						<h3>What do I get?</h3>
+						<hr></hr><h3>What do I get?</h3>
 						<ul>
 							<li>
 								<h4>Winners of the workshop will get free Industrial Training &amp; Visit opportunities in the
@@ -127,25 +127,29 @@ class Sae extends Component{
 								<h4>Placement assistance to workshop winners.</h4>
 							</li>
 						</ul>
-						<h3>Duration: 2 days (16 hours in total)</h3>
-						<h3>Conducted by: AMZ automotives</h3>
-						<h3>Certification &amp; Kit: Every participant will receive a certificate of participation &amp; a course
-						book on ‘Automotive Dynamics &amp; Designing’</h3>
-						<h3>Course Fee: Rs 1000 per participant (including the kit)</h3>
-						<h3>This workshop has been organised by keeping BAJA virtuals in mind. Learning about
+						<hr></hr><h3>Duration: </h3>
+						<h4>2 days (16 hours in total)</h4>
+						<hr></hr><h3>Conducted by: </h3>
+						<h4>AMZ automotives</h4>
+						<hr></hr><h3>Certification &amp; Kit: </h3>
+						<h4>Every participant will receive a certificate of participation &amp; a course
+						book on ‘Automotive Dynamics &amp; Designing’</h4>
+						<hr></hr><h3>Course Fee: </h3>
+						<h4>Rs 1000 per participant (including the kit)</h4>
+						<hr></hr><h4>This workshop has been organised by keeping BAJA virtuals in mind. Learning about
 						statics and dynamics of ATV will not only aide us in BAJA virtual round but would also be
-						very informative for students in mechanical department.</h3>
+						very informative for students in mechanical department.</h4>
 					</Row>
 				</Container>
 				<Container className='details-container active sae sae1'>
 					<Row className='event-details'>
 						<h1 >Bridge Fabrication</h1>
-						<h3 className='display-pos'>Abstract :</h3>
+						<h3 className='display-pos sae1'>Abstract :</h3>
 						<h4>Ever wondered what makes a bridge so iconic? It&#39;s less about its length, load
 						carrying capability, etc but more about the truss design it carries.</h4>
 						<h4>Here, we give you a chance to design your own bridge model outside CAD and explore
 						how to manage load distribution and vibration associated with the same.</h4>
-						<h3>Problem Statement :</h3>
+						<hr></hr><h3>Problem Statement :</h3>
 						<ul>
 							<li>
 								<h4>Design and fabrication of your own truss bridge capable of holding
@@ -156,7 +160,7 @@ class Sae extends Component{
 								on the same, they can proceed for fabrication.</h4>
 							</li>
 						</ul>
-						<h3>Rules : </h3>
+						<hr></hr><h3>Rules : </h3>
 						<ul>
 							<li>
 								<h4>10 mins will be alloted to each team for on-spot design submission. [5 mins for
@@ -184,11 +188,15 @@ class Sae extends Component{
 								<h4>Team size: max 4 members**</h4>
 							</li>
 						</ul>
-						<h3>Prize Money: 10,000 (1st: 5000 ; 2nd: 3000 ; 3rd: 2000) [tentative]</h3>
-						<h3>Duration: Round #1: 2 hrs (1hr designing + 1hr presentation)</h3>
-						<h3>Round #2: 3 hrs</h3>
+						<hr></hr><h3>Prize Money: </h3>
+						<h4>10,000 (1st: 5000 ; 2nd: 3000 ; 3rd: 2000) [tentative]</h4>
+						<hr></hr><h3>Duration: </h3>
 						<ul>
-							<h3>No of Rounds: 2</h3>
+							<h4>Round #1: 2 hrs (1hr designing + 1hr presentation)</h4>
+							<h4>Round #2: 3 hrs</h4>
+						</ul>
+						<hr></hr><h3>No of Rounds: 2</h3>
+						<ul>
 							<li>
 								<h4>Round #1: Design report presentation</h4>
 							</li>
@@ -197,8 +205,9 @@ class Sae extends Component{
 								materials.</h4>
 							</li>
 						</ul>
+						
+						<hr></hr><h3>Judging Criterion : </h3>
 						<ul>
-							<h3>Judging Criterion : </h3>
 							<li>
 								<h4>Detailing of design report</h4>
 							</li>
