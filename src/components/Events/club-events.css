@@ -153,6 +153,9 @@
 .display-pos{
     margin-top:20vh!important;
 }
+.display-pos.sae2{
+    margin-top:25vh!important;
+}
 
 .details-container::-webkit-scrollbar {
     width: 5px;
@@ -375,6 +378,9 @@ h4,h5{
     }
     .display-pos.sae1{
         padding-top: 5vh;
+    }
+    .pos4{
+        margin-top: -65vh;
     }
     /* .sae .display-pos{
         padding-top:25vh;
