@@ -83,6 +83,8 @@ class Events extends Component{
 				document.getElementById('codewars').hidden =false;
 				document.getElementById('hackathon').hidden =false;
 				document.getElementById('deeplearning').hidden =false;
+				document.getElementById('ainigma').hidden =false;
+				document.getElementById('decode').hidden =false;
 				document.getElementsByClassName('details-container')[0].classList.toggle('active');
 				this.props.dispatch({type:'ZERONECLOSE'});
 			}
@@ -95,6 +97,8 @@ class Events extends Component{
 				document.getElementById('codewars').hidden =false;
 				document.getElementById('hackathon').hidden =false;
 				document.getElementById('deeplearning').hidden =false;
+				document.getElementById('ainigma').hidden =false;
+				document.getElementById('decode').hidden =false;
 				document.getElementsByClassName('details-container')[1].classList.toggle('active');
 				this.props.dispatch({type:'HACKATHONCLOSE'});
 			}
@@ -107,8 +111,38 @@ class Events extends Component{
 				document.getElementById('codewars').hidden =false;
 				document.getElementById('hackathon').hidden =false;
 				document.getElementById('deeplearning').hidden =false;
+				document.getElementById('ainigma').hidden =false;
+				document.getElementById('decode').hidden =false;
 				document.getElementsByClassName('details-container')[2].classList.toggle('active');
 				this.props.dispatch({type:'DEEPLEARNINGCLOSE'});
+			}
+			else if(this.props.ainigma_event)
+			{
+				if(this.state.width<575)
+				{
+					document.getElementById('zerone').classList.toggle('active');
+				}
+				document.getElementById('codewars').hidden =false;
+				document.getElementById('hackathon').hidden =false;
+				document.getElementById('deeplearning').hidden =false;
+				document.getElementById('ainigma').hidden =false;
+				document.getElementById('decode').hidden =false;
+				document.getElementsByClassName('details-container')[3].classList.toggle('active');
+				this.props.dispatch({type:'AINIGMACLOSE'});
+			}
+			else if(this.props.decode_event)
+			{
+				if(this.state.width<575)
+				{
+					document.getElementById('zerone').classList.toggle('active');
+				}
+				document.getElementById('codewars').hidden =false;
+				document.getElementById('hackathon').hidden =false;
+				document.getElementById('deeplearning').hidden =false;
+				document.getElementById('ainigma').hidden =false;
+				document.getElementById('decode').hidden =false;
+				document.getElementsByClassName('details-container')[4].classList.toggle('active');
+				this.props.dispatch({type:'DECODECLOSE'});
 			}
 			else if(this.props.break_the_circuit)
 			{
@@ -440,6 +474,8 @@ Events.propTypes = {
 	zerone_event : PropTypes.number.isRequired,
 	hackathon_event : PropTypes.number.isRequired,
 	deeplearning_event : PropTypes.number.isRequired,
+	ainigma_event : PropTypes.number.isRequired,
+	decode_event : PropTypes.number.isRequired,
 	break_the_circuit : PropTypes.number.isRequired,
 	technothon_event : PropTypes.number.isRequired,
 	aavishkar_event : PropTypes.number.isRequired,
@@ -462,6 +498,8 @@ const mapStateToProps = function(state){
 		zerone_event : state.zerone_event,
 		hackathon_event : state.hackathon_event,
 		deeplearning_event : state.deeplearning_event,
+		ainigma_event : state.ainigma_event,
+		decode_event : state.decode_event,
 		break_the_circuit : state.break_the_circuit,
 		technothon_event :state.technothon_event,
 		aavishkar_event :state.aavishkar_event,

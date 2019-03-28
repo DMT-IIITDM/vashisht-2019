@@ -37,7 +37,7 @@ header{
     color:#E4E4E4;
 }
 
-.navbar:active p{
+.navbar p:hover{
     border-bottom: 3px solid #D4145A;
     border-radius:1px;
 }
