@@ -1,0 +1,35 @@
+.container.regform{
+	background-image: url("../../resources/homepage/Gradient.jpg");
+	min-width: 100%;
+	min-height: 100%;
+    background-size: cover;
+    background-repeat: repeat-y;
+    /* overflow-y: hidden; */
+}
+
+.regform1{
+    margin-top: 8vh;
+}
+.regform h5{
+    margin-top: 9vh;
+	font-family: rubik;
+	font-size: 10vh;
+	text-align: center;
+	color: white;
+}
+label{
+    color: aliceblue;
+}
+#dropdown-basic-button,.button1{
+    background-color: #D4145A;
+    border-color: #D4145A;
+}
+.button1:hover{
+    background-color: #E5BB01;
+    border-color: #E5BB01;
+}
+@media (max-width: 670px){
+    .container.regform{
+        overflow-y: scroll;
+    }
+}

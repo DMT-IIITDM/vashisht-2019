@@ -45,6 +45,7 @@ class Navbar extends Component{
 							<span onClick={this.handleMenu}><NavLink to='/team'><p>TEAM</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/sponsors'><p>SPONSORS</p></NavLink></span>
 							<span><a href={googleDocsAddress} target="_blank" rel="noopener noreferrer"><p>PAPER PRESENTATION</p></a></span>
+							<span onClick={this.handleMenu}><NavLink to='/register'><p>REGISTER</p></NavLink></span>
 						</Col>
 						<Col sm={3} className='social-col'>
 							<div className='social-icons'>
