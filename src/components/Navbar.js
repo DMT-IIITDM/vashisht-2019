@@ -9,6 +9,7 @@ import close from '../resources/mobile/close.png';
 
 const fbAddress= 'https://www.facebook.com/vashishtthetechfest/';
 const instaAddress= 'https://www.instagram.com/vashisht_techfest/?hl=en' ;
+const googleDocsAddress = 'https://docs.google.com/document/d/1DiTOZ2XBqk0ww0upVVYZk_roZa9Nh7wcnBQRpFgrFHU/edit';
 
 class Navbar extends Component{
 	constructor(){
@@ -43,6 +44,7 @@ class Navbar extends Component{
 							<span onClick={this.handleMenu}><NavLink to='/talks'><p>TALKS</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/team'><p>TEAM</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/sponsors'><p>SPONSORS</p></NavLink></span>
+							<span><a href={googleDocsAddress} target="_blank" rel="noopener noreferrer"><p>PAPER PRESENTATION</p></a></span>
 						</Col>
 						<Col sm={3} className='social-col'>
 							<div className='social-icons'>
