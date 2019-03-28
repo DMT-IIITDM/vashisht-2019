@@ -32,7 +32,7 @@ class HomePage extends Component {
 		};
 
 		return (
-			<SectionsContainer {...options} activeSection={initialActiveSection} scrollCallback={this.onScroll}>
+			<SectionsContainer {...options} activeSection={initialActiveSection} scrollCallback={this.onScroll}>			
 				<Section>
 					<Home />
 				</Section>

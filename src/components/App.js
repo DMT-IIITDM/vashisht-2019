@@ -9,6 +9,7 @@ import Events from './Events/Events';
 import Navbar from "./Navbar";
 import Teams from "./Teams/teams";
 import Talks from "./talks/talks";
+import Register from "./Registration/RegistrationForm";
 
 class App extends Component {
 	componentDidMount() {
@@ -35,6 +36,7 @@ class App extends Component {
 						<Route path="/talks" component={Talks} />
 						<Route path="/team" component={Teams} />
 						<Route path="/sponsors" component={Coming} />
+						<Route path="/register" component={Register} />
 					</Switch>
 				</div>
 			</BrowserRouter>
